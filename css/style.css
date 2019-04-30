@@ -25,7 +25,7 @@
 }
 
 .metal{
-    border: solid 25px rgb(50, 48, 82);
+    /* border: solid 25px rgb(50, 48, 82); */
     /* border-radius: 25px; */
 }
 
@@ -36,12 +36,12 @@
     margin-right: 5%;
     margin-top: 1%;
     margin-bottom: 1%;
-    /* border: solid 5px rgb(24, 8, 241);
-    border-radius: 10px; */
+    border: solid 5px rgb(24, 8, 241);
+    border-radius: 10px;
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
-    font-weight: bold;
+    /* font-weight: 700; */
 }
 
 .card-wrapper h5{
@@ -49,13 +49,14 @@
 }
 
 .card-text{
-    color: rgb(50, 48, 82);
+    /* color: rgb(50, 48, 82); */
+    /* color: black; */
     /* font-weight: bold; */
     /* padding: 1%;  */
 }
 
 .card-title{
-    font-weight: bold;
+    font-weight: 400;
     margin-top: 10px;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
@@ -74,7 +75,7 @@
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 10vw);
+    grid-template-rows: repeat(2, 11vw);
     grid-gap: 5px;
     background-color: grey;
 }
@@ -93,10 +94,16 @@
 }
 
 .client-title {
-    margin: 150px 0px 150px 0px;
+    margin: 100px 0px 50px 10px;
 }
 
 footer {
     height: 10%;
     background-color: rgb(50, 48, 82) !important;
+}
+
+.work-title {
+    position: relative;
+    top: 80px;
+    margin-left: 10px;
 }
